@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#page_container {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Imagem de fundo */
+#container {
+    background: url("img/capa.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+/* Títulos da capa */
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 20%;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+}
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+}
+#acao {
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+/* Parte com vídeo */
+#inicio {
+    padding: 10px;
+    background-color: rgb(255, 236, 239);
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 15px;
+}
+.bloco2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Parte das ações sociais */
+#borda {
+    border-top: 2px dotted deeppink;
+}
+img {
+    width: 350px;
+}
+h4 {
+    text-align: center;
+}
+.acoes_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#eu {
+    border-radius: 20%;
+}
